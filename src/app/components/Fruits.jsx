@@ -1,6 +1,6 @@
 import Image from "next/image"
-import{FaSquareInstagram} from 'react-icons/fa'
-import{FcLike,FcGoogle} from 'react-icons/fc'
+import {IoLogoInstagram} from 'react-icons/io'
+import { FcLike,FcGoogle} from 'react-icons/fc'
 import style from './fruit.module.css'
 
 export default function Fruits({list}) {
@@ -12,8 +12,8 @@ export default function Fruits({list}) {
             <h2>{fruit.botanicalName}</h2>
             <h2>{fruit.season}</h2>
           
-            <div className="grid grid-cols-2">
-            <FaSquareInstagram/>
+            <div className="grid grid-cols-3">
+            <IoLogoInstagram/>
             <FcLike/>
             <FcGoogle/>
             </div>
